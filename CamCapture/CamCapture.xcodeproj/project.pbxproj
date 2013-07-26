@@ -21,9 +21,9 @@
 		9CA00B1717979FC200F8BF0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA00B1617979FC200F8BF0F /* ViewController.m */; };
 		9CA00B1A17979FC200F8BF0F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B1817979FC200F8BF0F /* ViewController.xib */; };
 		9CA00B231797A03200F8BF0F /* PhotoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA00B211797A03200F8BF0F /* PhotoCaptureViewController.m */; };
-		9CA00B241797A03200F8BF0F /* PhotoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B221797A03200F8BF0F /* PhotoCaptureViewController.xib */; };
+		9CA00B241797A03200F8BF0F /* PhotoCaptureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B221797A03200F8BF0F /* PhotoCaptureView.xib */; };
 		9CA00B281797A06900F8BF0F /* VideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA00B261797A06900F8BF0F /* VideoCaptureViewController.m */; };
-		9CA00B291797A06900F8BF0F /* VideoCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B271797A06900F8BF0F /* VideoCaptureViewController.xib */; };
+		9CA00B291797A06900F8BF0F /* VideoCaptureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B271797A06900F8BF0F /* VideoCaptureView.xib */; };
 		9CA00B2B1797A0C500F8BF0F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA00B2A1797A0C500F8BF0F /* MobileCoreServices.framework */; };
 		9CA00B2D1797A28700F8BF0F /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B2C1797A28700F8BF0F /* 86-camera.png */; };
 		9CA00B2F1797A2F800F8BF0F /* 45-movie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CA00B2E1797A2F800F8BF0F /* 45-movie-1.png */; };
@@ -51,10 +51,10 @@
 		9CA00B1917979FC200F8BF0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		9CA00B201797A03200F8BF0F /* PhotoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCaptureViewController.h; sourceTree = "<group>"; };
 		9CA00B211797A03200F8BF0F /* PhotoCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCaptureViewController.m; sourceTree = "<group>"; };
-		9CA00B221797A03200F8BF0F /* PhotoCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCaptureViewController.xib; sourceTree = "<group>"; };
+		9CA00B221797A03200F8BF0F /* PhotoCaptureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCaptureView.xib; sourceTree = "<group>"; };
 		9CA00B251797A06900F8BF0F /* VideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureViewController.h; sourceTree = "<group>"; };
 		9CA00B261797A06900F8BF0F /* VideoCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
-		9CA00B271797A06900F8BF0F /* VideoCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCaptureViewController.xib; sourceTree = "<group>"; };
+		9CA00B271797A06900F8BF0F /* VideoCaptureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCaptureView.xib; sourceTree = "<group>"; };
 		9CA00B2A1797A0C500F8BF0F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9CA00B2C1797A28700F8BF0F /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "86-camera.png"; path = "../86-camera.png"; sourceTree = "<group>"; };
 		9CA00B2E1797A2F800F8BF0F /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "45-movie-1.png"; path = "../45-movie-1.png"; sourceTree = "<group>"; };
@@ -114,10 +114,10 @@
 				9CA00B1817979FC200F8BF0F /* ViewController.xib */,
 				9CA00B201797A03200F8BF0F /* PhotoCaptureViewController.h */,
 				9CA00B211797A03200F8BF0F /* PhotoCaptureViewController.m */,
-				9CA00B221797A03200F8BF0F /* PhotoCaptureViewController.xib */,
+				9CA00B221797A03200F8BF0F /* PhotoCaptureView.xib */,
 				9CA00B251797A06900F8BF0F /* VideoCaptureViewController.h */,
 				9CA00B261797A06900F8BF0F /* VideoCaptureViewController.m */,
-				9CA00B271797A06900F8BF0F /* VideoCaptureViewController.xib */,
+				9CA00B271797A06900F8BF0F /* VideoCaptureView.xib */,
 				9CA00B0417979FC200F8BF0F /* Supporting Files */,
 			);
 			path = CamCapture;
@@ -195,8 +195,8 @@
 			files = (
 				9CA00B0817979FC200F8BF0F /* InfoPlist.strings in Resources */,
 				9CA00B1A17979FC200F8BF0F /* ViewController.xib in Resources */,
-				9CA00B241797A03200F8BF0F /* PhotoCaptureViewController.xib in Resources */,
-				9CA00B291797A06900F8BF0F /* VideoCaptureViewController.xib in Resources */,
+				9CA00B241797A03200F8BF0F /* PhotoCaptureView.xib in Resources */,
+				9CA00B291797A06900F8BF0F /* VideoCaptureView.xib in Resources */,
 				9CA00B2D1797A28700F8BF0F /* 86-camera.png in Resources */,
 				9CA00B2F1797A2F800F8BF0F /* 45-movie-1.png in Resources */,
 				9CA00B311797A38900F8BF0F /* 121-landscape.png in Resources */,
